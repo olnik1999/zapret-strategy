@@ -1,6 +1,6 @@
 --filter-tcp=443
 --hostlist=/opt/zapret/ipset/zapret-hosts-google.txt
---dpi-desync=fake,fakedsplit
+--dpi-desync=1111111
 --dpi-desync-split-seqovl=681
 --dpi-desync-split-pos=1
 --dpi-desync-fooling=ts
