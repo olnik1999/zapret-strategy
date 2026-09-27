@@ -1,4 +1,4 @@
-#Yv27
+#Yv27testschript
 --filter-tcp=443
 --hostlist=/opt/zapret/ipset/zapret-hosts-google.txt
 --dpi-desync=multidisorder
