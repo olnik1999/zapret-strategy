@@ -1,4 +1,4 @@
-#Yv081
+#Yv08
 --filter-tcp=443
 --hostlist=/opt/zapret/ipset/zapret-hosts-google.txt
 --dpi-desync=hostfakesplit
