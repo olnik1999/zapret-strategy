@@ -1,4 +1,4 @@
-#Yv08test20
+#Yv08testik
 --filter-tcp=443
 --hostlist=/opt/zapret/ipset/zapret-hosts-google.txt
 --dpi-desync=hostfakesplit
@@ -7,7 +7,7 @@
 --new
 #v10
 --filter-tcp=443
---hostlist-exclude=/opt/zapret/ipset/zapret-hosts-user-exclude.txt
+--hostlist=/opt/zapret/ipset/zapret-hosts-user.txt
 --dpi-desync=fake,split2
 --dpi-desync-split-pos=2
 --dpi-desync-fake-tls=/opt/zapret/files/fake/tls_clienthello_www_google_com.bin
