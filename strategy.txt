@@ -4,3 +4,10 @@
 --dpi-desync=hostfakesplit
 --dpi-desync-hostfakesplit-mod=host=google.com
 --dpi-desync-fooling=ts
+--new
+#Selected
+--filter-tcp=443
+--hostlist-domains=instagram.com,cdninstagram.com,fbcdn.net,facebook.com,whatsapp.com,whatsapp.net,rutracker.org,rutor.info,rutor.org,rutor.net,rutor.is,rutor.ws
+--dpi-desync=hostfakesplit
+--dpi-desync-hostfakesplit-mod=host=google.com
+--dpi-desync-fooling=ts
