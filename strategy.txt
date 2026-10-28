@@ -1,6 +1,5 @@
-#Yv08
+#Yv11
 --filter-tcp=443
 --hostlist=/opt/zapret/ipset/zapret-hosts-google.txt
---dpi-desync=hostfakesplit
---dpi-desync-hostfakesplit-mod=host=google.com
---dpi-desync-fooling=ts
+--dpi-desync=multidisorder
+--dpi-desync-split-pos=2,5,105,host+5,sld-1,endsld-5,endsld
